@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    /*margin: 0;*/
     padding: 0;
 }
 
@@ -15,6 +15,12 @@ body {
     background-color: #228b22;
 }
 
+#cabecalho h1{
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+}
+
 #menu {
     width: 20%;
     background-color: black;
@@ -24,7 +30,7 @@ body {
 }
 
 #conteudo {
-    /*background-color: blue;*/
+    background-color: red;
     float: right;
     width: 80%;
 }
@@ -32,5 +38,5 @@ body {
 #conteudo .bloco {
     height: 100px;
     margin: 10px;
-    background-color: #cccccc;
+    background-color: aqua;
 }
